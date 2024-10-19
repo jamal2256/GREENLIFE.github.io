@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GREENLIFE PIONEERS ECO</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f8f1;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #388E3C;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .section-title {
+            font-size: 28px;
+            color: #388E3C;
+            margin-bottom: 10px;
+        }
+        .cta-btn {
+            background-color: #388E3C;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-btn:hover {
+            background-color: #2E7D32;
+        }
+        .program-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 250px;
+            vertical-align: top;
+        }
+        @media only screen and (max-width: 768px) {
+            .banner {
+                font-size: 24px;
+                height: 300px;
+            }
+            .program-card {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+        .hello{
+            position: absolute;
+            height: auto;
+            left: 0px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+    <div class="container">
+        <img src="green life.PNG" class="hello">
+    </div>  
+        <h1>GREENLIFE PIONEERS ECO</h1>
+        <p>Restoring Nature, Empowering Communities</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="solar.jpeg.PNG">
+        Join us in protecting the environment and empowering communities
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <p>GREENLIFE PIONEERS ECO is a non-governmental organization focused on conserving biodiversity, mitigating climate change, and empowering communities. We operate in marginalized regions across coastal and northeastern Kenya.</p>
+        <a href="#get-involved" class="cta-btn">Learn More</a>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <h2 class="section-title">Our Programs</h2>
+        <div class="program-card">
+            <h3>Climate Change Adaptation</h3>
+            <p>Helping farmers adapt to climate-smart agriculture, increasing resilience through innovative farming solutions.</p>
+        </div>
+        <div class="program-card">
+            <h3>Education</h3>
+            <p>Improving access to quality education by building infrastructure, supporting students, and training teachers.</p>
+        </div>
+        <div class="program-card">
+            <h3>Women & Youth Empowerment</h3>
+            <p>Supporting women and youth through job creation, skills development, and financial independence initiatives.</p>
+        </div>
+        <a href="#contact" class="cta-btn">Support Our Work</a>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="get-involved">
+        <h2 class="section-title">Get Involved</h2>
+        <p>We offer multiple ways to get involved in our mission to protect the environment and empower communities.</p>
+        <a href="#contact" class="cta-btn">Volunteer with Us</a>
+        <a href="#donate" class="cta-btn">Donate Now</a>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2 class="section-title">Our Blog</h2>
+        <p>Read the latest updates from our projects, climate change tips, and success stories from the field.</p>
+        <a href="#contact" class="cta-btn">Visit Our Blog</a>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have any questions or want to get involved? Reach out to us today!</p>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea><br>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 GREENLIFE PIONEERS ECO. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
